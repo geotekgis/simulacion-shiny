@@ -8,14 +8,14 @@
       src="./shinylive/load-shinylive-sw.js"
       type="module"
     ></script>
-	<script type="module">
-	import { runExportedApp } from "https://geotekgis.github.io/simulacion-shiny/shinylive/shinylive.js";
-	runExportedApp({
-    id: "root",
-    appEngine: "r",
-    relPath: "https://geotekgis.github.io/simulacion-shiny/shinylive/",
-	});
-	</script>
+    <script type="module">
+      import { runExportedApp } from "./shinylive/shinylive.js";
+      runExportedApp({
+        id: "root",
+        appEngine: "r",
+        relPath: "",
+      });
+    </script>
     <link rel="stylesheet" href="./shinylive/style-resets.css" />
     <link rel="stylesheet" href="./shinylive/shinylive.css" />
     
